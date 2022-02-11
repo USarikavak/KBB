@@ -1,7 +1,7 @@
 package KBBTests.pages;
 
-import com.rcsa.testbase.BaseClass;
-import com.rcsa.utils.CommonMethods;
+import KBBTests.testbase.BaseClass;
+import KBBTests.utils.CommonMethods;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

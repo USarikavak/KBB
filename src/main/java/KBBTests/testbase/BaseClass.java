@@ -1,6 +1,5 @@
 package KBBTests.testbase;
-import com.rcsa.utils.ConfigsReader;
-import com.rcsa.utils.Constants;
+import KBBTests.utils.ConfigsReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
