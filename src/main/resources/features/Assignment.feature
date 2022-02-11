@@ -11,9 +11,9 @@ Feature:Assignment
 
     Given I choose the of "<Week>" for assignment and navigate to assignment page
     And I add the details of the assignment starting on "8" ending on "15"
-    When I click save
-    Then I see the assignment created
-    And I finished the assignment
+#    When I click save
+#    Then I see the assignment created
+  #  And I finished the assignment
     Examples:
       | Week              |
       | May 4 - May 10    |
