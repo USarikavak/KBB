@@ -1,6 +1,6 @@
 package KBBTests.testbase;
 
- import com.rcsa.utils.CommonMethods;
+import KBBTests.utils.CommonMethods;
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
