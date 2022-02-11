@@ -18,14 +18,6 @@ public class LoginPageElements extends CommonMethods {
     public WebElement password;
 
 
-    @FindBy(id = "loginbtn")
-    public WebElement loginBtn;
-
-    @FindBy(xpath = "//div[@class='alert alert-icon alert-danger alert-dismissible']")
-    public WebElement errorMsg;
-
-    @FindBy(xpath = "//figcaption")
-    public WebElement course;
 
 
     public LoginPageElements() {
