@@ -13,6 +13,7 @@ public class BaseClass {
 
     public static void setUp() {
 
+
         ConfigsReader.readProperties(Constants.CREDENTIALS_FILEPATH);
 
         switch (ConfigsReader.getProperty("browser").toLowerCase()) {
@@ -32,11 +33,14 @@ public class BaseClass {
             default:
                 System.err.println("Browser is not supported");
         }
+
         driver.manage().timeouts().pageLoadTimeout(Constants.PAGE_LOAD_TIME, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_LOAD_TIME, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         driver.get(ConfigsReader.getProperty("url"));
+        driver.manage().deleteAllCookies();
+
     }
 
     public static void tearDown() {

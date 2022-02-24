@@ -2,14 +2,15 @@ package kbb.testbase;
 
 
 import kbb.pages.MenuTitlesPage;
+import kbb.pages.carValuesPages;
 
 public class PageInitializer extends BaseClass {
 
-    protected static MenuTitlesPage carValuesTitle;
+    protected static carValuesPages carValuesTitle;
 
 
     public static void initializeAll() {
-        carValuesTitle = new MenuTitlesPage();
+        carValuesTitle = new carValuesPages();
 
 
     }
