@@ -6,5 +6,9 @@ Feature:CarValues
 
 
     When I hover over 'CarValues'
-    And I click 'the Price New/Used'
-    Then I verify 'Car Price' is displayed.
+
+    #And I click 'the Price New/Used'
+    #And I click 'My Car's Values'
+    #And I click myKBB
+   # Then I click create account
+   # Then I verify 'Car Price' is displayed.
