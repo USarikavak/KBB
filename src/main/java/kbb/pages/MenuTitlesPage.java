@@ -14,12 +14,16 @@ public class MenuTitlesPage extends CommonMethods {
     public WebElement carValues;
 
 
+    @FindBy(xpath="//*[@id=\"app\"]/header/div/nav/div[2]/ul/li[1]/a")
+    public WebElement newOrUsedPrice;
 
-    @FindBy(id = "password")
-    public WebElement password;
-// kkdghkdhf
+    @FindBy(xpath="//*[@id=\"mykbb-icon-placeholder\"]")
+    public WebElement myKBB;
 
+    @FindBy(xpath="//*[@id=\"mykbb-icon-placeholder\"]/div[1]/div/div/a[2]")
+    public WebElement createAccount;
 
+//*[@id="mykbb-icon-placeholder"]/div[1]/div/div/a[2]
 
     public MenuTitlesPage() {
         PageFactory.initElements(BaseClass.driver, this);
