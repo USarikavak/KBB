@@ -1,5 +1,6 @@
 package kbb.testbase;
 import kbb.utils.ConfigsReader;
+import kbb.utils.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -26,10 +27,7 @@ public class BaseClass {
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();
                 break;
-            case "firefox":
-                System.setProperty("webdriver.gecko.driver", Constants.GECKO_DRIVER_PATH);
-                driver = new FirefoxDriver();
-                break;
+
             default:
                 System.err.println("Browser is not supported");
         }

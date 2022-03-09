@@ -7,7 +7,8 @@ Feature:CarValues
 
     When I hover over 'CarValues'
 
-    #And I click 'the Price New/Used'
+    And I click 'the Price New/Used'
+
     #And I click 'My Car's Values'
     #And I click myKBB
    # Then I click create account

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features="src/main/resources/features"
-        ,glue="kbb/steps"
+        ,glue= "kbb/stepsDefinition"
         ,dryRun=false
         ,plugin= {"pretty", "html:target/html/cucumber-default-report"
         ,"json:target/cucumber.json"

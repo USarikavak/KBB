@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features="@target/failed.txt"
-        ,glue="com/rcsa/steps"
+        ,glue="com/kbb/steps"
         ,monochrome = true
         ,plugin= "pretty"
 )
